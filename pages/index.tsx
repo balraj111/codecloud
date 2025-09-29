@@ -6,7 +6,8 @@ import Services from '../components/Services';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
-const HomePage = () => {
+// Rename to Home for clarity since this is our root component
+const Home = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -21,4 +22,5 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+// Make this the default export
+export default Home;
